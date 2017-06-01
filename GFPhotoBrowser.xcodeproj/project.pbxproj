@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D00D14421EDFCA04009A6366 /* GFPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = D00D14401EDFCA04009A6366 /* GFPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00D14701EE0119F009A6366 /* GFPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D146F1EE0119F009A6366 /* GFPhotoBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D00D143D1EDFCA04009A6366 /* GFPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GFPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00D14401EDFCA04009A6366 /* GFPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFPhotoBrowser.h; sourceTree = "<group>"; };
 		D00D14411EDFCA04009A6366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00D146F1EE0119F009A6366 /* GFPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFPhotoBrowser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D00D146C1EDFDF3A009A6366 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D00D146F1EE0119F009A6366 /* GFPhotoBrowser.swift */,
 				D00D146D1EDFE52E009A6366 /* Supporting Files */,
 			);
 			path = Source;
@@ -113,6 +116,7 @@
 					D00D143C1EDFCA04009A6366 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2AF4HF959P;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -149,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00D14701EE0119F009A6366 /* GFPhotoBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 		D00D14461EDFCA04009A6366 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2AF4HF959P;
@@ -271,6 +277,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.szbd.GFPhotoBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -278,6 +285,7 @@
 		D00D14471EDFCA04009A6366 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2AF4HF959P;
