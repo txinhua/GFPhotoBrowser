@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D00D14421EDFCA04009A6366 /* GFPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = D00D14401EDFCA04009A6366 /* GFPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D00D14741EE1070A009A6366 /* GFPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D14731EE1070A009A6366 /* GFPhotoBrowser.swift */; };
+		D00D14791EE10B80009A6366 /* GFPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = D00D14771EE10B80009A6366 /* GFPhotoBrowser.h */; };
+		D00D147A1EE10B80009A6366 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00D14781EE10B80009A6366 /* Info.plist */; };
+		D00D147C1EE10BB7009A6366 /* GFPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D147B1EE10BB7009A6366 /* GFPhotoBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D00D143D1EDFCA04009A6366 /* GFPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GFPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D00D14401EDFCA04009A6366 /* GFPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFPhotoBrowser.h; sourceTree = "<group>"; };
-		D00D14411EDFCA04009A6366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D00D14731EE1070A009A6366 /* GFPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFPhotoBrowser.swift; sourceTree = "<group>"; };
+		D00D14771EE10B80009A6366 /* GFPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFPhotoBrowser.h; sourceTree = "<group>"; };
+		D00D14781EE10B80009A6366 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00D147B1EE10BB7009A6366 /* GFPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFPhotoBrowser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +33,7 @@
 		D00D14331EDFCA04009A6366 = {
 			isa = PBXGroup;
 			children = (
-				D00D14721EE1070A009A6366 /* Source */,
-				D00D143F1EDFCA04009A6366 /* GFPhotoBrowser */,
+				D00D14761EE10B80009A6366 /* Source */,
 				D00D143E1EDFCA04009A6366 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,27 +46,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D00D143F1EDFCA04009A6366 /* GFPhotoBrowser */ = {
+		D00D14761EE10B80009A6366 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D00D146D1EDFE52E009A6366 /* Supporting Files */,
-			);
-			path = GFPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		D00D146D1EDFE52E009A6366 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D00D14401EDFCA04009A6366 /* GFPhotoBrowser.h */,
-				D00D14411EDFCA04009A6366 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D00D14721EE1070A009A6366 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				D00D14731EE1070A009A6366 /* GFPhotoBrowser.swift */,
+				D00D147B1EE10BB7009A6366 /* GFPhotoBrowser.swift */,
+				D00D14771EE10B80009A6366 /* GFPhotoBrowser.h */,
+				D00D14781EE10B80009A6366 /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -78,7 +63,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00D14421EDFCA04009A6366 /* GFPhotoBrowser.h in Headers */,
+				D00D14791EE10B80009A6366 /* GFPhotoBrowser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00D147A1EE10B80009A6366 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00D14741EE1070A009A6366 /* GFPhotoBrowser.swift in Sources */,
+				D00D147C1EE10BB7009A6366 /* GFPhotoBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
