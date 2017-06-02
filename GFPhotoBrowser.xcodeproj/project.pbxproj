@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D00D14791EE10B80009A6366 /* GFPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = D00D14771EE10B80009A6366 /* GFPhotoBrowser.h */; };
+		D00D14791EE10B80009A6366 /* GFPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = D00D14771EE10B80009A6366 /* GFPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D00D147A1EE10B80009A6366 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00D14781EE10B80009A6366 /* Info.plist */; };
 		D00D147C1EE10BB7009A6366 /* GFPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D147B1EE10BB7009A6366 /* GFPhotoBrowser.swift */; };
 /* End PBXBuildFile section */
@@ -256,7 +256,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GFPhotoBrowser/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.szbd.GFPhotoBrowser;
@@ -277,7 +277,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GFPhotoBrowser/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.szbd.GFPhotoBrowser;
